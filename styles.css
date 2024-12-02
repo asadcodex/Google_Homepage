@@ -27,6 +27,25 @@ header {
     gap: 1rem;
 }
 
+.text-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+    background: pink;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.icon-link {
+    font-size: 1rem;
+    color: inherit;
+}
+
 .img-container {
     border: none;
     background: transparent;
