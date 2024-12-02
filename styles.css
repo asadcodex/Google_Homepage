@@ -34,16 +34,21 @@ header {
 
 .text-link:hover {
     text-decoration: underline;
-    background: pink;
-    width: 30px;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    border-radius: 100%;
 }
 
 .icon-link {
     font-size: 1rem;
     color: inherit;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.icon-link:hover {
+    background: rgb(235, 235, 235);
 }
 
 .img-container {
