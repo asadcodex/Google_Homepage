@@ -13,6 +13,10 @@ body {
     min-height: 100vh;
 }
 
+button {
+    cursor: pointer;
+}
+
 .google-header {
     font-family: 'Poppins', sans-serif;
 }
@@ -73,7 +77,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
 }
 
@@ -110,6 +114,21 @@ main {
     gap: 1rem;
 }
 
+.input-icon {
+    background: transparent;
+    border: none;
+}
+
 .input-icon:hover {
     opacity: 0.6;
+}
+
+.button-grid {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-grid button {
+    padding: 0.5rem 1rem;
 }
